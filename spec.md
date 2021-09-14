@@ -14,15 +14,18 @@ Charms are used as variables, and every charm that holds a nonzero value gives y
 
 Once you are finished with any non-movement/conditional command, treat it as '+' for movement.
 
+Execution stops when you hit a dead end or a `q` command.
+
 
 ## Commands:
-### Spawning:
-| Icon | Meaning | Function                                                                             |
-|:----:|:-------:| ------------------------------------------------------------------------------------ |
-| `#`  | Home    | This is your spawn, and your respawn point if you die.                               |
-| `i`  | Inn     | Pay 10 gold to change your respawn point. If you don't have enough, it does nothing. |
+### Spawning / Execution:
+| Icon | Meaning  | Function                                                                                             |
+|:----:|:--------:| ---------------------------------------------------------------------------------------------------- |
+| `#`  | Home     | This is your inital spawn, and your respawn point if you die. Return here to reset your spawn point. |
+| `i`  | Inn      | Pay 10 gold to change your respawn point. If you don't have enough, it does nothing.                 |
+| `q`  | Dead End | End the quest.                                                                                       |
 
-**Return to your spawn point alive to empty your bag and print the contents.**
+**Return to your home or spawn point alive to empty your bag and print the contents.**
 
 ### Movement:
 | Icon | Meaning    | Function                                                           |
